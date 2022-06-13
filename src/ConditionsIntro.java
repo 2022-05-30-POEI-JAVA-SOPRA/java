@@ -3,7 +3,7 @@ public class ConditionsIntro {
         //Declaration de la variable age
         byte age=18;
 
-        //Test condition
+        //interface_class_abstraites.Test condition
         // si age >= 18 alors
         // Afficher "Vous etes majeur, et pouvez donc participer a la competition"
         //fin sin
@@ -17,13 +17,13 @@ public class ConditionsIntro {
         }
 
         String pays="Chine";
-        if(pays=="France"){
+        if(pays.equals("France")){
             System.out.println("Bonjour");
-        }else if(pays=="Allemagne"){
+        }else if(pays.equals("Allemagne")){
             System.out.println("Guten Tag");
-        }else if(pays=="Espagne"){
+        }else if(pays.equals("Espagne")){
             System.out.println("Holla");
-        }else if(pays=="Chine"){
+        }else if(pays.equals("Chine")){
             System.out.println("Ninhau");
         }else{
             System.out.println("Le pays fourni n'est pas supporte");
