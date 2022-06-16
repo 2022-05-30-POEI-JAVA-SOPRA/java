@@ -1,3 +1,5 @@
+package bases_java;
+
 public class TableauxATailleFixe {
     public static void main(String[] args) {
         //Creation des tableaux

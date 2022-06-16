@@ -1,3 +1,5 @@
+package bases_java;
+
 public class DoWhile {
     public static void main(String[] args) {
         int age=23;

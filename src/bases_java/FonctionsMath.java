@@ -1,3 +1,5 @@
+package bases_java;
+
 public class FonctionsMath {
     public static void main(String[] args) {
         double nombre=81;

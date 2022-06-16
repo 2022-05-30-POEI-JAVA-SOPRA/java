@@ -1,3 +1,5 @@
+package bases_java;
+
 public class ConditionsIntro {
     public static void main(String[] args) {
         //Declaration de la variable age

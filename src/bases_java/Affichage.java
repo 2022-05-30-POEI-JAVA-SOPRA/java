@@ -1,3 +1,5 @@
+package bases_java;
+
 public class Affichage {
     public static void main(String[] args) {
         String nom="Lisangola";

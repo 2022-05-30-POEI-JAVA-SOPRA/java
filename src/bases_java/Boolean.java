@@ -1,3 +1,5 @@
+package bases_java;
+
 public class Boolean {
     public static void main(String[] args) {
         byte age=12;

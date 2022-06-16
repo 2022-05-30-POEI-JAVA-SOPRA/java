@@ -1,3 +1,5 @@
+package bases_java;
+
 import javax.security.sasl.SaslClient;
 import java.util.Scanner;
 

@@ -1,3 +1,5 @@
+package bases_java;
+
 public class Variables {
     public static void main(String[] args) {
         //Les variables/fonctions en Java sont en camelCase

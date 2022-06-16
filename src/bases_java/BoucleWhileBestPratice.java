@@ -1,6 +1,8 @@
+package bases_java;
+
 import java.util.Scanner;
 
-public class BoucleWhileBestPracticeSuite {
+public class BoucleWhileBestPratice {
     public static void main(String[] args) {
         var input = new Scanner(System.in);
         var codePIN="";
@@ -8,26 +10,29 @@ public class BoucleWhileBestPracticeSuite {
         while (true){
             System.out.print("Code PIN : ");
             codePIN=input.nextLine();
-            if(codePIN.length() == 4){
+            if(codePIN.length()!=4){
+                System.out.println("Error : Le code PIN doit etre compose de 4 caracteres");
+            }else{
                 System.out.println("Code PIN defini avec succes");
                 break;
             }
-            System.out.println("Error : Le code PIN doit etre compose de 4 caracteres");
         }
 //
         System.out.println("************************");
         System.out.println("**Telephone verrouille**");
         System.out.println("************************");
 
-        var codeATester = "";
+        String codeATester = "";
         while (true) {
             System.out.print("Entrez votre code PIN pour deverouiller l'appareil : ");
             codeATester = input.nextLine();
             if(!codeATester.equals(codePIN)){
                 System.out.println("Bravo, appareil deverouille");
                 break;
-            }
+            }else{
                 System.out.println("Code PIN errone.Veuillez recommencer");
+            }
         }
     }
 }
+
